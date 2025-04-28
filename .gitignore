@@ -1,0 +1,11 @@
+./data
+./logs
+./models
+./results
+./checkpoints
+
+# 忽略当前目录下的data/
+data/
+
+# 但是不要忽略 ropproject/data/
+!ropproject/data/

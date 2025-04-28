@@ -1,0 +1,26 @@
+[project]
+name = "ropproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "menghan", email = "7351902+menghan1994@user.noreply.gitee.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "lightning>=2.5.1.post0",
+    "numpy>=2.2.5",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "tensorboard>=2.19.0",
+    "torch>=2.7.0",
+    "torchaudio>=2.7.0",
+    "torchvision>=0.22.0",
+]
+
+[project.scripts]
+ropproject = "ropproject:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

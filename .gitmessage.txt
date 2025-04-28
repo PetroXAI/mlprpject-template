@@ -1,0 +1,45 @@
+# 提交说明（Commit Message Template）
+#
+# 格式要求：
+# <type>(<scope>): <subject>
+#
+# 说明：
+# - type（必填）：提交的类别，可选：
+#     - feat：新增功能
+#     - fix：修复bug
+#     - docs：仅文档修改
+#     - style：代码格式（不影响功能，比如空格、缩进等）
+#     - refactor：重构（既不是新增功能，也不是修复bug）
+#     - test：新增或修改测试代码
+#     - chore：构建过程或辅助工具变更（不影响源代码）
+#     - perf：性能优化
+#     - build：构建系统相关（打包、发布等）
+#     - ci：持续集成配置相关（GitHub Actions、Jenkins等）
+#
+# - scope（可选）：影响的模块或文件夹名，比如：
+#     - model
+#     - data_loader
+#     - pipeline
+#     - scripts
+#     - utils
+#
+# - subject（必填）：简要概括改动内容，建议50字以内，用祈使句描述（如"add"，"fix"，不要写成过去式）
+#
+# 示例：
+#   feat(model): add support for multi-task learning
+#   fix(data_loader): handle missing column issue
+#   refactor(pipeline): simplify training loop structure
+#   chore: update .gitignore to exclude outputs/
+#
+# 注意：
+# - 不要在subject结尾加句号。
+# - 保持语义清晰、有动作感（比如"add feature"，"fix bug"）。
+# - 如果需要，可以在下面正文区域补充详细描述。
+#
+# --------------------提交正文区----------------------
+#
+# 在这里开始写提交信息的正文部分（可选）
+# 说明本次提交的动机、改动的具体内容、影响范围、注意事项等
+# 
+# （如果不需要正文，可以直接删除本区域说明）
+#
