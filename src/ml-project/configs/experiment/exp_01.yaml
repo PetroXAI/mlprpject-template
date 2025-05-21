@@ -1,0 +1,20 @@
+# 实验001: 基础LSTM模型集成配置文件（无导入）
+
+name: "exp001_lstm"
+description: "使用基础LSTM模型进行早期故障预测的完整配置"
+
+# 模型配置
+model:
+  type: "lstm"
+  params:
+    input_dim: 15
+    hidden_dim: 128
+    n_layers: 2
+    dropout: 0.4
+    rnn_type: "lstm"
+
+# 数据配置
+data:
+  # 数据目录
+  data_dir: "./data/labelleddata"
+  
